@@ -1,20 +1,8 @@
 <template>
   <div id="app">
-    <h1>bebra</h1>
-    <TodoList/>
+    <router-view />
   </div>
 </template>
-
-<script>
-import TodoList from '@/components/TodoList.vue';
-export default {
-  name: 'App',
-  components: {
-    TodoList
-  }
-}
-</script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
